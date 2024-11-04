@@ -1,0 +1,37 @@
+.container {
+    color: #fff;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    font-size: 45px;
+    font-weight: 700;
+    padding-top: 40px;
+}
+
+.metricsContainer {
+    margin-top: 50px;
+    
+    font-size: 35px;
+    font-weight: 700;
+    /* font-style: italic; */
+}
+
+.conclusion {
+    padding-bottom: 50px;
+    font-size: 35px;
+}
+
+.spanConclusion {
+    font-weight: 700;
+}
+
+.graphContainer {
+    display: flex;
+    margin: 50px 0;
+}

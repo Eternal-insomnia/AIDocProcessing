@@ -1,0 +1,138 @@
+.chatContainer {
+    position: fixed;
+    /* top: 5%; */
+    top: 0;
+    right: 0;
+    width: 33%;
+    height: 100%;
+    background-color: #C2C2E3;
+    transition: right 0.5s ease-in-out;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.chatContainerClosed {
+    right: -33%;
+}
+
+.tittleContainer {
+    display: flex;
+    width: 100%;
+    cursor: default;
+}
+
+.closeChat {
+    background-color: transparent;
+    color: #181C4F;
+    border: none;
+    width: 121px;
+    height: 100px;
+    right: calc(30% - 121px);
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.closeChat:hover {
+    color: #292D69;
+}
+
+.openChat {
+    position: fixed;
+    top: 75px;
+    right: 0;
+    width: 260px;
+    height: 100px;
+    background-color: #181C4F;
+    color: #E9E9E9;
+    font-size: 30px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    cursor: pointer;
+    font-weight: 600;
+    padding-left: 20px;
+}
+
+.openChat:hover {
+    background-color: #292D69;
+}
+
+.openChatIsOpen {
+    display: none;
+}
+
+.tittle {
+    margin-right: 121px;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+
+    font-size: 40px;
+
+    color: #181C4F;
+}
+
+.textChatContainer {
+    flex-grow: 1;
+
+}
+
+.inputContainer {
+    padding: 28px 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputButtonContainer {
+    position: relative;
+    background-color: #E9E9E9;
+    min-height: 45px;
+    border-radius: 22px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.input {
+    border: none;
+    font-size: 22px;
+    outline: none;
+    color: #000;
+    padding-left: 35px;
+    height: 100%;
+    background-color: transparent;
+    flex-grow: 1;
+    resize: none;
+    padding-right: 63px;
+}
+
+.input::placeholder {
+    color: #000;
+}
+
+.buttonForInput {
+    position: absolute;
+    right: 17px;
+    bottom: 12px;
+    border: none;
+    background-color: #181C4F;
+    width: 41px;
+    height: 41px;
+    border-radius: 46px;
+    cursor: pointer;
+
+    color: #fff;
+    font-weight: 600;
+    font-size: 22px;
+    /* margin-right: 17px; */
+}
+
+.buttonForInput:hover {
+    background-color: #292D69;
+}

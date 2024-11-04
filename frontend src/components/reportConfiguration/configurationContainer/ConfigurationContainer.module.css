@@ -1,0 +1,32 @@
+.container {
+    margin-top: 75px;
+    background-color: rgba(233, 233, 233, 0.13);
+    width: 901px;
+    border-radius: 39px;
+}
+
+.forBorderContainer {
+    margin-left: 43px;
+    margin-right: 43px;
+    border-bottom: 1px solid #D1D1D1;
+}
+
+.itemSelectionOfReportingPeriod {
+    padding-left: 21px;
+    padding-right: 21px;
+}
+
+.selectionOfStartReportingPeriod {
+    padding-top: 55px;
+    margin-bottom: 52px;
+}
+
+.selectionOfEndReportingPeriod {
+    margin-bottom: 44px;
+}
+
+.metricsContainer {
+    margin-left: 43px;
+    margin-top: 19px;
+    margin-bottom: 75px;
+}

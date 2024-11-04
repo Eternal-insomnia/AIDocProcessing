@@ -1,0 +1,68 @@
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    width: 250px;
+    cursor: pointer;
+}
+
+.yearContainer {
+    width: 200px;
+    justify-content: center;
+}
+
+.quarterContainer {
+    padding-left: 10px;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+.value {
+    font-size: 35px;
+    color: #fff;
+}
+
+
+.options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #181C4F;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 15px;
+    max-height: 290px;
+    overflow-y: auto;
+    z-index: 10;
+    cursor: default;
+}
+ 
+.option {
+    margin-top: 14px;
+    margin-left: 12px;
+    margin-right: 12px;
+    height: 55px;
+    font-size: 35px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.option:not(.selected):hover {
+    background-color: #292D69;
+}
+
+.selected {
+    background-color: #FEFEFE;
+    color: #000;
+}
+
+.lastOption {
+    margin-bottom: 14px;
+}

@@ -1,0 +1,31 @@
+.container {
+    margin-top: 75px;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 75px;
+}
+
+.startAgainButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 470px;
+    background-color: rgba(233, 233, 233, 0.13);
+    border-radius: 50px;
+
+    color: #E9E9E9;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.startAgainButton:hover {
+    background-color: rgba(200, 200, 255, 0.3);
+}
+
+.dataContainer {
+    margin-top: 75px;
+    width: 100%;
+    background-color: rgba(233, 233, 233, 0.13);
+    border-radius: 39px;
+}

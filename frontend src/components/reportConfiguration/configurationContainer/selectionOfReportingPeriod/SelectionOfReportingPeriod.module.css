@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+}
+
+.title {
+    width: 320px;
+    height: 109px;
+    font-size: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    cursor: default;
+}

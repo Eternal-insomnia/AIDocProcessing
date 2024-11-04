@@ -1,0 +1,14 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    
+    background-image: url('./icons/background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100vh;
+
+    font-family: 'Inter', sans-serif;
+  }
